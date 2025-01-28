@@ -3,6 +3,19 @@
 	justify-items: center;
 }
 
+.form-container button {
+	margin-top: 1rem;
+	padding: 1rem;
+	border-radius: 8px;
+	border: none;
+	background-color: #00a5cf;
+	transition: 0.3s;
+	&:hover {
+		background-color: #9fffcb;
+		transform: scale(110%);
+	}
+}
+
 .gamePoint_container article {
 	display: flex;
 	flex-direction: column;
@@ -13,7 +26,12 @@
 	padding: 1rem;
 	border-radius: 8px;
 	border: none;
-	background-color: bisque;
+	background-color: #00a5cf;
+	transition: 0.5s;
+	&:hover {
+		background-color: #9fffcb;
+		transform: scale(110%);
+	}
 }
 
 .gamePoint_container aside {

@@ -1,11 +1,8 @@
 import type React from "react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import type { GameState } from "../../types/Game";
 import type { Player } from "../../types/Player";
-interface GameState {
-	sets: number[][];
-	currentGame: string[];
-	winner: string | null;
-}
+
 export default function useGame() {
 	const [player1, setPlayer1] = useState<Player>({ name: "Joueur1", level: 5 });
 	const [player2, setPlayer2] = useState<Player>({ name: "Joueur2", level: 5 });

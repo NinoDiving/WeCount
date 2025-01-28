@@ -25,7 +25,7 @@ export default function Game() {
 					player2={player2}
 				/>
 				<GamePoint generatePoint={generatePoint} points={points} />
-				<button type="submit">Valider</button>
+				<button type="submit">Jouer la partie</button>
 			</form>
 
 			<table className="table_result">

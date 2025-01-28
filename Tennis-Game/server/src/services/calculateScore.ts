@@ -1,8 +1,4 @@
-type ScoreResult = {
-	winner: string;
-	sets: number[][];
-	currentGame: string[];
-};
+import type { ScoreResult } from "../types/scoreResult/ScoreResult";
 
 export default function calculateScore(
 	points: string[],

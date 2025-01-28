@@ -1,10 +1,10 @@
 import "./App.css";
-import Game from "./components/Game/Game";
+import PageGame from "./pages/PageGame";
 
 function App() {
 	return (
 		<>
-			<Game />
+			<PageGame />
 		</>
 	);
 }
