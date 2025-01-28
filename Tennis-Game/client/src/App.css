@@ -1,0 +1,11 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	cursor: url("./src/assets/images/cursor-tennis.png") 16 16, auto;
+}
+
+button,
+input {
+	cursor: pointer;
+}

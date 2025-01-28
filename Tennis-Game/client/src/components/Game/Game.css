@@ -1,0 +1,54 @@
+.form-container {
+	padding: 1rem;
+	justify-items: center;
+}
+
+.gamePoint_container article {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.gamePoint_container button {
+	padding: 1rem;
+	border-radius: 8px;
+	border: none;
+	background-color: bisque;
+}
+
+.gamePoint_container aside {
+	padding: 1rem;
+	border-top: 4px black;
+	box-shadow: -1px 6px 6px 1px #4d464645;
+	border-radius: 8px;
+	height: 20vh;
+	overflow: scroll;
+}
+
+.table_result {
+	border-collapse: collapse;
+	width: 80%;
+	margin: auto;
+}
+
+.table_result caption {
+	padding: 1rem;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+.table_result th,
+.table_result td {
+	border: 1px solid #ddd;
+	padding: 1rem;
+	text-align: center;
+}
+
+.table_result thead th {
+	background-color: #f5f5f5;
+	font-weight: bold;
+}
+
+.table_result tbody th {
+	background-color: #f9f9f9;
+}
